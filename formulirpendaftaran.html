@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Web </title>
+
+        <style>
+            nav{
+                text-align: center;
+                background-color:blanchedalmond;
+                
+            }
+            body{
+                background-color:blanchedalmond;
+            }
+            h2{
+                color: pink;
+            }
+
+            nav a{
+                text-decoration: none;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" style="color: blueviolet;">Home</a>
+            <a href="formulirpendaftaran.html" style="color: blueviolet;"> Formulir Pendaftaran</a>
+            <a href="tabelpeserta.html" style="color: blueviolet;"> Tabel Peserta</a>
+            <hr>
+        </nav>
+
+        <h2 style="text-align: center;"> Formulir Pendaftaran</h2>
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend style="color: pink;">Data Pribadi</legend>
+                </table>
+                <label for="nama">Nama :</label><br>
+                <input type="text" name="nama" id="nama" required><br><br>
+
+
+                <label for="Jenis Kelamin"> Jenis Kelamin :</label><br>
+                <input type="radio" name="Jenis Kelamin" id="Laki-laki" value="Laki-laki" required>Laki Laki
+                <input type="radio" name="Jenis Kelamin" id="Perempuan" value="Perempuan" required>Perempuan<br><br>
+
+                <label for="Agama"> Agama :</label><br>
+                <select name="Agama" id="Agama" required>
+                    <optgroup label="Agama Mayoritas">
+                    <option value="Islam"> Islam </option>
+                    <option value="Kristen"> Kristen </option>
+                    <option value="Katolik"> Katolik </option>   
+                    </optgroup>
+                    <optgroup label="Agama Lain">
+                      <option value="Katolik"> Katolik </option>
+                    <option value="Hindu"> Hindu </option>
+                    <option value="Budha"> Budha </option>  
+                    </optgroup>
+                </select><br><br>
+
+                <label for="Tempat Lahir"> Tempat Lahir :</label><br>
+                <input type="text" name="Tempat Lahir" id="Tempat Lahir" required><br><br>
+
+                <label for="Tanggal Lahir"> Tanggla Lahir :</label><br>
+                <input type="date" name="Tanngal Lahir" id="Tanggal Lahir" required><br><br>
+
+                <label for="Alamat"> Alamat :</label><br>
+                <textarea name="Alamat" id="Alamat" cols="30" rows="6" required></textarea><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: pink;"> Pendidikan</legend>
+                <label for="SD"> SD :</label><br>
+                <input type="text" name="SD" id="SD" required>
+
+                <label for="Masuk"> Masuk </label>
+                <input type="date" name="Masuk" id="Masuk" required>
+
+                <label for="Keluar"> Keluar </label>
+                <input type="date" name="Keluar" id="Keluar" required><br><br>
+
+                <label for="SMP"> SMP :</label><br>
+                <input type="text" name="SMP" id="SMP" required>
+
+                <label for="Masuk"  > Masuk </label>
+                <input type="date" name="Masuk" id="Masuk" required>
+
+                <label for="Keluar"> Keluar </label>
+                <input type="date" name="Keluar" id="Keluar" required><br><br>
+
+                <label for="SMA"> SMA :</label><br>
+                <input type="text" name="SMA" id="SMA" required>
+
+                <label for="Masuk"  > Masuk </label>
+                <input type="date" name="Masuk" id="Masuk" required>
+
+                <label for="Keluar"> Keluar </label>
+                <input type="date" name="Keluar" id="Keluar" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: pink;"> Pelatihan</legend>
+                <label for="Minat"> Minat :</label><br>
+                <input type="checkbox" name="minat" id="minat" value="HTML"> HTML
+                <input type="checkbox" name="minat" id="minat" value="CSS"> CSS
+                <input type="checkbox" name="minat" id="minat" value="JavaScript"> JavaScript
+                <input type="checkbox" name="minat" id="minat" value="PHP"> PHP<br><br>
+
+                <label for="Kopetensi"> Kopetensi :</label><br>
+                <input type="checkbox" name="kopetensi" id="kopetensi" value="HTML"> HTML
+                <input type="checkbox" name="kopetensi" id="kopetensi" value="CSS"> CSS
+                <input type="checkbox" name="kopetensi" id="kopetensi" value="JavaScript"> JavaScript
+                <input type="checkbox" name="kopetensi" id="kopetensi" value="PHP"> PHP
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: pink;"> Pilih Jurusan</legend>
+                <select name="Jurusan" id="Jurusan" required>
+                    <optgroup label="Teknik">
+                    <option value="Informatika"> Teknik Informatika </option>
+                    <option value="TElektro"> Teknik Elektro </option>
+                    <option value="Idustri"> Teknik Industri </option>
+                    <option value="Sipil"> Teknik Sipil </option>
+                    </optgroup>
+
+                    <optgroup label="Ekonomi">
+                        <option value="Akutansi"> Akutansi</option>
+                        <option value="Manajemen"> Manajemen</option>
+                        <option value="Perbankan"> Perbankan</option>
+                        <option value="Bisnis Digital"> Bisnis Digital</option>
+                    </optgroup>
+            </fieldset>
+
+            </fieldset>
+        </form>
+    </body>
+</html> 
